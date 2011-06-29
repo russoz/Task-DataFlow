@@ -7,26 +7,43 @@ use warnings;
 
 # VERSION
 
-
 1;
 
 =pod
 
 =pkgroup DataFlow Core
 
-=pkg DataFlow 1.111750 First version with split modules
+The core features of the DataFlow framework.
+
+=pkg DataFlow 1.111762 Refactored modules out
+
+
 
 =pkgroup DataFlow Converters
 
-=pkg DataFlow::Proc::MessagePack 1.111750
+=pkg DataFlow::Proc::MessagePack 1.111750 Converts to and fro MessagePack format
 
-=pkg DataFlow::Proc::JSON 1.111750
+No tests yet!!
 
-=pkg DataFlow::Proc::YAML 1.111750
+=pkg DataFlow::Proc::JSON 1.111750 Converts to and fro JSON format
+
+No tests yet!!
+
+=pkg DataFlow::Proc::YAML 1.111750 Converts to and fro YAML format
+
+No tests yet!!
+
+
 
 =pkgroup DataFlow for Web
 
-=pkg DataFlow::Proc::URLRetriever 1.111750
+Processors to help scraping the dirt out of the web.
+
+=pkg DataFlow::Proc::URLRetriever 1.111751 Using LWP::UserAgent
+
+=pkg DataFlow::Proc::HTMLFilter 1.111762
+
+A powerful HTML filter based on XPath.
 
 =cut
 
