@@ -15,21 +15,21 @@ use warnings;
 
 The core features of the DataFlow framework.
 
-=pkg DataFlow 1.111762 Refactored modules out
+=pkg DataFlow 1.111810 Using builders instead of defaults (Moose)
 
 
 
 =pkgroup DataFlow Converters
 
-=pkg DataFlow::Proc::MessagePack 1.111750 Converts to and fro MessagePack format
+=pkg DataFlow::Proc::MessagePack 1.111810
 
 No tests yet!!
 
-=pkg DataFlow::Proc::JSON 1.111750 Converts to and fro JSON format
+=pkg DataFlow::Proc::JSON 1.111810
 
 No tests yet!!
 
-=pkg DataFlow::Proc::YAML 1.111750 Converts to and fro YAML format
+=pkg DataFlow::Proc::YAML 1.111810
 
 No tests yet!!
 
@@ -39,9 +39,9 @@ No tests yet!!
 
 Processors to help scraping the dirt out of the web.
 
-=pkg DataFlow::Proc::URLRetriever 1.111751 Using LWP::UserAgent
+=pkg DataFlow::Proc::URLRetriever 1.111810
 
-=pkg DataFlow::Proc::HTMLFilter 1.111762
+=pkg DataFlow::Proc::HTMLFilter 1.111810
 
 A powerful HTML filter based on XPath.
 
