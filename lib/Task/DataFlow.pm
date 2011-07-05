@@ -15,7 +15,7 @@ use warnings;
 
 The core features of the DataFlow framework.
 
-=pkg DataFlow 1.111810 Using builders instead of defaults (Moose)
+=pkg DataFlow 1.111860 Using builders instead of defaults (Moose)
 
 
 
