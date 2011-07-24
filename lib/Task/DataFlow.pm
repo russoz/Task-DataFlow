@@ -18,7 +18,6 @@ The core features of the DataFlow framework.
 =pkg DataFlow 1.111860 Using builders instead of defaults (Moose)
 
 
-
 =pkgroup DataFlow Converters
 
 =pkg DataFlow::Proc::MessagePack 1.111810
@@ -47,6 +46,12 @@ Processors to help scraping the dirt out of the web.
 =pkg DataFlow::Proc::HTMLFilter 1.111810
 
 A powerful HTML filter based on XPath.
+
+
+=pkgroup Others
+
+=pkg DataFlow::Proc::DPath
+
 
 =cut
 
